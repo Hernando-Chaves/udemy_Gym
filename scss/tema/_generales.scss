@@ -1,0 +1,25 @@
+h1 {font-size: $size_h1;}
+h2 {font-size: $size_h2;}
+h3 {font-size: $size_h3;}
+h4 {font-size: $size_h4;}
+h5 {font-size: $size_h5;}
+h6 {font-size: $size_h6;}
+a, a:hover {
+	text-decoration: none;
+}
+a:hover, li:hover > a, .ancestor-menu-item > a, a:visited, a:active
+{
+	color: $principal!important;
+} 
+
+.btn-primary
+{
+	background-color: $secundario;
+	color: $principal;
+	border: none;
+	&:hover {
+		background-color: $principal;
+		color: $secundario!important;
+	}
+
+}

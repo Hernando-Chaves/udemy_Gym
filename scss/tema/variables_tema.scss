@@ -1,0 +1,25 @@
+/* FUENTES */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,70); 
+$fuente :'Roboto','sans-serif';
+
+
+
+
+/* COLORES */
+$negro    : #232323;
+$amarillo : #ffd602;
+
+$principal  : $amarillo;
+$secundario : $negro;
+
+
+
+
+/* TAMAÑOS */
+$size_h1 : 2em;
+$size_h2 : $size_h1 - 0.3em;
+$size_h3 : $size_h1 - 0.6em;
+$size_h4 : $size_h1 - 0.9em;
+$size_h5 : $size_h1 - 1.2em;
+$size_h6 : $size_h1 - 1.5em;
+

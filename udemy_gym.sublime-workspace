@@ -1,0 +1,958 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"respuesta_2"
+			],
+			[
+				"res",
+				"respuesta_2"
+			],
+			[
+				"re",
+				"respuesta_1"
+			],
+			[
+				"id",
+				"id_item"
+			],
+			[
+				"i",
+				"inputNombre"
+			],
+			[
+				"in",
+				"inputNombre"
+			],
+			[
+				"resu",
+				"result_update"
+			],
+			[
+				"where",
+				"where_format"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"da",
+				"dataType"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"au",
+				"autofocus\tAttr"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"va",
+				"validarCampos"
+			],
+			[
+				"url",
+				"urlEdit"
+			],
+			[
+				"dpt",
+				"dpto_val"
+			],
+			[
+				"dep",
+				"departamento"
+			],
+			[
+				"data",
+				"data_decode"
+			],
+			[
+				"las",
+				"last_item_id"
+			],
+			[
+				"it",
+				"items_decode"
+			],
+			[
+				"ur",
+				"urlEdit"
+			],
+			[
+				"js",
+				"json_last_error"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"wp_cr",
+				"wp_create_nonce"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"t",
+				"target\tAttr"
+			],
+			[
+				"dat",
+				"dataSwitch"
+			],
+			[
+				"d",
+				"dataSwitch"
+			],
+			[
+				"O",
+				"OP_version"
+			],
+			[
+				"POST",
+				"_POST"
+			],
+			[
+				"pre",
+				"precargador"
+			],
+			[
+				"pr",
+				"precargador"
+			],
+			[
+				"rm",
+				"removeClass"
+			],
+			[
+				"ha",
+				"hasClass"
+			],
+			[
+				"input",
+				"inputVal"
+			],
+			[
+				"dt",
+				"datox"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"abs",
+				"absolute\tposition"
+			],
+			[
+				"val",
+				"val_name"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"nombre",
+				"nombre_val"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"w",
+				"wp_plugin_sin\tWordPress Plugin Boilerplate (Singleton)"
+			],
+			[
+				"plugin_dir",
+				"plugin_dir_url"
+			],
+			[
+				"add_menu",
+				"add_menu_page"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"add_men",
+				"add_menu_page"
+			],
+			[
+				"Vue",
+				"VueRouter"
+			],
+			[
+				"str",
+				"strtoupper"
+			],
+			[
+				"prin",
+				"printf"
+			],
+			[
+				"rep",
+				"respuesta"
+			],
+			[
+				"rta",
+				"rta_correcta"
+			],
+			[
+				"total",
+				"total_examen"
+			],
+			[
+				"wp_reset_",
+				"wp_reset_postdata"
+			],
+			[
+				"the_p",
+				"the_post"
+			],
+			[
+				"pre_",
+				"pre_var_dump\tpre_var_dump"
+			],
+			[
+				"quiz",
+				"quizbook"
+			],
+			[
+				"ev",
+				"eva_cap"
+			],
+			[
+				"adm",
+				"admins"
+			],
+			[
+				"th",
+				"the_role"
+			],
+			[
+				"DOING",
+				"DOING_AUTOSAVE"
+			],
+			[
+				"wp_nonce",
+				"wp_nonce_field"
+			],
+			[
+				"peli",
+				"peliculaNva"
+			],
+			[
+				"pl",
+				"peliculaNva"
+			],
+			[
+				"rt",
+				"rta1"
+			],
+			[
+				"solo_resp",
+				"solo_respuesta_1"
+			],
+			[
+				"test_rta_ct",
+				"test_rta_cta_b"
+			],
+			[
+				"update_postm",
+				"update_post_meta"
+			],
+			[
+				"santizeed",
+				"sanitize_text_field"
+			],
+			[
+				"bwc_respuesta",
+				"bwc_respuesta_1"
+			],
+			[
+				"respuesta",
+				"respuesta_1"
+			],
+			[
+				"so",
+				"solo_respuesta_1"
+			],
+			[
+				"func",
+				"function_No\tfuncion_no_existe"
+			],
+			[
+				"repuesta",
+				"respuesta_correcta"
+			],
+			[
+				"repues",
+				"respuesta_2"
+			],
+			[
+				"me",
+				"mensajes"
+			],
+			[
+				"serv",
+				"servicio"
+			],
+			[
+				"servic",
+				"servicios"
+			],
+			[
+				"ti",
+				"tipoFormulario"
+			],
+			[
+				"ser",
+				"servicios"
+			],
+			[
+				"add_me",
+				"add_meta_box"
+			],
+			[
+				"add_meta",
+				"add_meta_box"
+			],
+			[
+				"strT",
+				"strtolower"
+			],
+			[
+				"te",
+				"text_domain"
+			],
+			[
+				"TE",
+				"text_domain"
+			],
+			[
+				"funct",
+				"function_No\tfuncion_no_existe"
+			],
+			[
+				"functio",
+				"function_exists"
+			],
+			[
+				"image",
+				"imagemin"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"fwr",
+				"flex-wrap\tproperty"
+			],
+			[
+				"sk",
+				"skew()\ttransform"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"bra",
+				"border-radius\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"flex",
+				"flex-grow\tproperty"
+			],
+			[
+				"mx",
+				"max-width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/custom.scss",
+			"settings":
+			{
+				"buffer_size": 590,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/tema/_generales.scss",
+			"settings":
+			{
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/tema/variables_tema.scss",
+			"settings":
+			{
+				"buffer_size": 231,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/tema/_header.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1869,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 5162,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/variables-site"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/style.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/404.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/search.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/archive.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/page.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-page.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/footer.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/_estilo.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
+		"/C/cygwin64/home/acer/.bash_profile",
+		"/F/BACKUPS SITIOS 2018/CASAGAS/datos_casagas2019.txt",
+		"/F/BACKUPS SITIOS 2018/CARDOZO ABOGADOS/Nueva carpeta/.htaccess",
+		"/F/BACKUPS SITIOS 2018/CARDOZO ABOGADOS/datos/accesos 2019.txt",
+		"/F/BACKUPS SITIOS 2018/DURAN OSORNO/datos_OSORNO_2019.txt",
+		"/F/BACKUPS SITIOS 2018/EWP/datos_EWP2019.txt",
+		"/F/BACKUPS SITIOS 2018/CENTRO ELECTRO ACUSTICO/datos_CEA_2019.txt",
+		"/F/BACKUPS SITIOS 2018/MARIACHI/datos_MARIACHI_2019.txt",
+		"/F/BACKUPS SITIOS 2018/LACOMEX/datos_LACOMEX_2019.txt",
+		"/F/BACKUPS SITIOS 2018/FLEXIBAG/datos_FLEXIBAG_2019.txt",
+		"/C/Users/acer/Downloads/omgur.txt",
+		"/F/1A/2017/LACOMEX/datos.txt",
+		"/F/BACKUPS SITIOS 2018/ELEGANCIA/datos E 0Y A/datos_host_lipur2019.txt",
+		"/E/Documents/datos namecheap.txt",
+		"/C/xampp/htdocs/chuletas/chuletas/SERVIDOR/HTTPS/PASOS PARA INSTALAR HTTPS.txt",
+		"/F/BOGOTA_WEB_COMPANY/datos_bwc.txt",
+		"/C/Users/acer/Downloads/.htaccess",
+		"/C/Users/acer/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/F/BACKUPS SITIOS 2018/INSTRUMENTOS/NOVIEMBRE 16 2018/ARCHIVOS/webhch80_daddyGuitar.sql",
+		"/C/Users/acer/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/F/BACKUPS SITIOS 2018/INSTRUMENTOS/datos_DADDY_2019.txt",
+		"/C/Users/acer/Downloads/reparaci_daddygu.sql",
+		"/F/BACKUPS SITIOS 2018/ESVECO/datos_ESVECO2019.txt",
+		"/G/sitiios web/datos_RIMODEL_2019.txt",
+		"/G/sitiios web/datos_DADDY_2019.txt",
+		"/G/sitiios web/datos_MILLENIAN_2019.txt",
+		"/G/sitiios web/datos_MARIACHI_2019.txt",
+		"/G/sitiios web/datos_LACOMEX_2019.txt",
+		"/G/sitiios web/datos_FLEXIBAG_2019.txt",
+		"/G/sitiios web/datos_EWP2019.txt",
+		"/G/sitiios web/datos_ESVECO2019.txt",
+		"/G/sitiios web/datos E Y A/datos_host_lipur2019.txt",
+		"/G/sitiios web/datos_OSORNO_2019.txt",
+		"/G/sitiios web/datos_CEA_2019.txt",
+		"/G/sitiios web/datos_casagas2019.txt",
+		"/G/sitiios web/datos  CARDOZO/accesos 2019.txt",
+		"/F/1A/2018/MILENNIAN/datos2019.txt",
+		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/RIMODEL/datos2019.txt",
+		"/F/BACKUPS SITIOS 2018/UNO A/datos paginas web 1a 2019.txt",
+		"/F/BACKUPS SITIOS 2018/INSTRUMENTOS/datos2019.txt",
+		"/C/Users/acer/Downloads/Secure Ftp bogotawe.xml",
+		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/RIMODEL/datos_itpsas.txt",
+		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/INSTRUMENTOS LA PROVINCIA/datos2019.txt",
+		"/F/1A/2018/FLEXIBAG/datos2019.txt",
+		"/F/1A/2017/MARIACHI BLANCO/datos2019.txt",
+		"/F/1A/2017/EWP/datos2019.txt",
+		"/F/1A/2017/LIPUR/datos_host_lipur2019.txt",
+		"/F/1A/2017/LACOMEX/datos2019.txt",
+		"/F/1A/2017/DURAN OSORNO/datos2019.txt",
+		"/F/1A/2017/ESVECOREAL/datos2019.txt",
+		"/F/1A/2017/CASAGAS/datos2019.txt",
+		"/F/1A/2017/UNO A/DATOS.txt",
+		"/F/1A/2017/AUDIFONOS/datos2019.txt",
+		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/accesos 2019.txt",
+		"/F/1A/2017/CASAGAS/datos.txt",
+		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/accesos.txt",
+		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/accesos_cliente.txt",
+		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/datos local.txt",
+		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/datos.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/partials/boilerdelatorre-save_metaboxes.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/partials/boilerdelatorre-metaboxes.php",
+		"/E/Documents/datos hostgator 2019.txt",
+		"/E/Documents/datos tarjeta  credito.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/class-boilerdelatorre-admin.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/boilerdelatorre.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/class-bc-admin.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-customnPostType.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-loader.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/public/class-boilerdelatorre-public.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/materiales.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/opciones.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-custonPostType.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/class-materiales-admin.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/js/materiales-admin.js",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-category.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-dpto.php",
+		"/F/CURSOS HACIENDO/PLUGINS GILBERT/beziercode-blank/includes/class-bc-cpt.php",
+		"/E/Documents/git.txt",
+		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/DULCINEA/datos.txt",
+		"/C/xampp/htdocs/chuletas/chuletas/SERVIDOR/htaccess_elegaqncia",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-admin-crud-json.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-display.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/css/materiales-admin.css",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/cargador.php",
+		"/F/1A/2017/AUDIFONOS/datos.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/js/tmp.js",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/tmp.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-city.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/includes/class-bc-build-menupage.php",
+		"/E/ALL FOR FORMAT/TUNE UP/Instrucciones.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-config.php",
+		"/C/Users/acer/Downloads/PHP 7 y Laravel -keepcoding.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/public/class-materiales-public.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-loader.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/cotizador.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/requerimientos.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/materiales.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-menupage.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales - copia/materiales.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/cotiza/uninstall.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-activator.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/partials/bc-admin-display.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/js/bc-admin.js",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/functions.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/admin/class-opciones-admin.php",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/admin/js/opciones-admin.js",
+		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/CASAGAS 2018/datos.txt",
+		"/F/1A/2018/MILENNIAN/datos.txt",
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/includes/class-opciones.php",
+		"/F/1A/2017/ESVECOREAL/datos.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enqueue",
+			"array()"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/tema/_generales.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/tema/variables_tema.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/tema/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1337,
+								885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2348,
+								2348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1173.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "udemy_gym.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"funtions",
+				"functions.php"
+			],
+			[
+				"bwc",
+				"plugins\\quizbook\\assets\\css\\bwc.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

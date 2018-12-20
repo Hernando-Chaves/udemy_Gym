@@ -1,0 +1,14 @@
+@import "tema/variables_tema";
+@import "tema/generales";
+@import "tema/header";
+@import "tema/blog";
+
+.entry-title
+{
+	font-family: $fuente!important;
+	font-size: $size_h1;
+	font-weight: bold;
+	a {
+		color: $secundario;
+	}
+}
