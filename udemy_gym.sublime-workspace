@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function_No\tfuncion_no_existe"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
 				"r",
 				"respuesta_2"
 			],
@@ -182,10 +190,6 @@
 			[
 				"add_menu",
 				"add_menu_page"
-			],
-			[
-				"fun",
-				"fun\tfunction …"
 			],
 			[
 				"add_men",
@@ -396,10 +400,19 @@
 	"buffers":
 	[
 		{
-			"file": "scss/custom.scss",
+			"file": "template-parts/content.php",
 			"settings":
 			{
-				"buffer_size": 590,
+				"buffer_size": 1444,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "custom/myFunctions.php",
+			"settings":
+			{
+				"buffer_size": 789,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -408,8 +421,25 @@
 			"file": "scss/tema/_generales.scss",
 			"settings":
 			{
-				"buffer_size": 86,
+				"buffer_size": 462,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 79,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Documents/git.txt",
+			"settings":
+			{
+				"buffer_size": 81,
 				"line_ending": "Windows"
 			}
 		},
@@ -417,35 +447,25 @@
 			"file": "scss/tema/variables_tema.scss",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 407,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scss/tema/_header.scss",
+			"file": "scss/custom.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 223,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "header.php",
+			"file": "single.php",
 			"settings":
 			{
-				"buffer_size": 1869,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 5162,
-				"encoding": "UTF-8",
+				"buffer_size": 768,
 				"line_ending": "Unix"
 			}
 		}
@@ -515,13 +535,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/variables-site"
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/chuletas/chuletas/GIT/config.php",
+		"/C/xampp/htdocs/chuletas/test/.gitignore",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_blog.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/inc/template-tags.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_header.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/variables_tema.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_generales.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/style.css",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/404.php",
@@ -529,13 +559,8 @@
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/archive.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/page.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-page.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/footer.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/_estilo.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
 		"/C/cygwin64/home/acer/.bash_profile",
@@ -641,19 +666,11 @@
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales - copia/materiales.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/cotiza/uninstall.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-activator.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/partials/bc-admin-display.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/js/bc-admin.js",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/functions.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/admin/class-opciones-admin.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/admin/js/opciones-admin.js",
-		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/CASAGAS 2018/datos.txt",
-		"/F/1A/2018/MILENNIAN/datos.txt",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/includes/class-opciones.php",
-		"/F/1A/2017/ESVECOREAL/datos.txt"
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/partials/bc-admin-display.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -667,6 +684,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"H1",
+			"h1",
 			"enqueue",
 			"array()"
 		],
@@ -686,86 +705,85 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/custom.scss",
+					"file": "template-parts/content.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 590,
+						"buffer_size": 1444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								801,
+								801
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 414.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/tema/_generales.scss",
+					"file": "custom/myFunctions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 86,
+						"buffer_size": 789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								702,
+								702
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "scss/tema/variables_tema.scss",
+					"file": "scss/tema/_generales.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								458,
+								458
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -777,11 +795,125 @@
 				},
 				{
 					"buffer": 3,
-					"file": "scss/tema/_header.scss",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/Documents/git.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/tema/variables_tema.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scss/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 768,
 						"regions":
 						{
 						},
@@ -794,72 +926,14 @@
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1869,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1337,
-								885
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 368.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2348,
-								2348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1173.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -913,6 +987,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"tem",
+				"inc\\template-tags.php"
+			],
 			[
 				"funtions",
 				"functions.php"
