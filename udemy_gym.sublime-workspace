@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"register_side",
+				"register_sidebar\tregister_sidebar All Options"
+			],
+			[
+				"register_si",
+				"register_sidebar"
+			],
+			[
+				"re",
+				"relative\tposition"
+			],
+			[
 				"fun",
 				"function_No\tfuncion_no_existe"
 			],
@@ -18,10 +34,6 @@
 			[
 				"res",
 				"respuesta_2"
-			],
-			[
-				"re",
-				"respuesta_1"
 			],
 			[
 				"id",
@@ -376,10 +388,6 @@
 				"skew()\ttransform"
 			],
 			[
-				"trans",
-				"transform\tproperty"
-			],
-			[
 				"bra",
 				"border-radius\tproperty"
 			],
@@ -400,46 +408,11 @@
 	"buffers":
 	[
 		{
-			"file": "template-parts/content.php",
+			"file": "single-entrenador.php",
 			"settings":
 			{
-				"buffer_size": 1444,
+				"buffer_size": 4395,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom/myFunctions.php",
-			"settings":
-			{
-				"buffer_size": 789,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/tema/_generales.scss",
-			"settings":
-			{
-				"buffer_size": 462,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 79,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Documents/git.txt",
-			"settings":
-			{
-				"buffer_size": 81,
 				"line_ending": "Windows"
 			}
 		},
@@ -447,8 +420,16 @@
 			"file": "scss/tema/variables_tema.scss",
 			"settings":
 			{
-				"buffer_size": 407,
+				"buffer_size": 428,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/tema/_single-trainer.scss",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -456,17 +437,18 @@
 			"file": "scss/custom.scss",
 			"settings":
 			{
-				"buffer_size": 223,
+				"buffer_size": 441,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "single.php",
+			"file": "custom/myFunctions.php",
 			"settings":
 			{
-				"buffer_size": 768,
-				"line_ending": "Unix"
+				"buffer_size": 2853,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -482,6 +464,18 @@
 		"selected_items":
 		[
 			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
 				"dis",
 				"Package Control: Disable Package"
 			],
@@ -492,14 +486,6 @@
 			[
 				"ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"i",
-				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -535,34 +521,56 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym"
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_generales.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-config.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt/entrenadores_cpt.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_comentarios.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single-entrenador.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/languages/gym_club.pot",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/comments.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-none.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-page.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/style.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/footer.php",
+		"/E/Documents/datos mega descarcgas.txt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_sidebar.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/inc/template-tags.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_footer.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_blog.scss",
+		"/E/Documents/datos udemy.txt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/variables_tema.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/variables-site/_colors.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/bootstrap.min.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
+		"/C/Users/acer/Downloads/Contraseña.txt",
+		"/C/Users/acer/Downloads/check-solid.svg",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_single_blog.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/.gitignore",
+		"/E/Documents/git.txt",
 		"/C/xampp/htdocs/chuletas/chuletas/GIT/config.php",
 		"/C/xampp/htdocs/chuletas/test/.gitignore",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_blog.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/inc/template-tags.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_header.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/variables_tema.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_generales.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/style.css",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/404.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/search.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/archive.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/page.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-page.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/footer.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/_estilo.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
 		"/C/cygwin64/home/acer/.bash_profile",
 		"/F/BACKUPS SITIOS 2018/CASAGAS/datos_casagas2019.txt",
 		"/F/BACKUPS SITIOS 2018/CARDOZO ABOGADOS/Nueva carpeta/.htaccess",
@@ -642,31 +650,13 @@
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-dpto.php",
 		"/F/CURSOS HACIENDO/PLUGINS GILBERT/beziercode-blank/includes/class-bc-cpt.php",
-		"/E/Documents/git.txt",
 		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/DULCINEA/datos.txt",
 		"/C/xampp/htdocs/chuletas/chuletas/SERVIDOR/htaccess_elegaqncia",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-admin-crud-json.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-display.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/css/materiales-admin.css",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/cargador.php",
-		"/F/1A/2017/AUDIFONOS/datos.txt",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/js/tmp.js",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/tmp.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-city.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/includes/class-bc-build-menupage.php",
-		"/E/ALL FOR FORMAT/TUNE UP/Instrucciones.txt",
-		"/C/xampp/htdocs/pruebas_wp/wp-config.php",
-		"/C/Users/acer/Downloads/PHP 7 y Laravel -keepcoding.txt",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/public/class-materiales-public.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-loader.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/cotizador.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/requerimientos.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/themes/twentyseventeen/materiales.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-menupage.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales - copia/materiales.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/cotiza/uninstall.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-activator.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/partials/bc-admin-display.php"
+		"/F/1A/2017/AUDIFONOS/datos.txt"
 	],
 	"find":
 	{
@@ -684,6 +674,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<?php echo $caption ?>",
+			"$per1",
+			"50",
+			"69",
+			"mb-2",
+			"p",
+			"<h2>",
+			"Quizes",
+			"gym",
+			"col-6",
+			"col-5",
+			"gym_order:comment_form",
+			"comment-metadata",
+			"wp_list_comments",
+			"secundario",
+			"royalblue",
+			"sidebar",
+			"col-md-4",
+			"1",
+			" 1",
+			"dynamic_sidebar",
+			"enqueu",
+			"10px",
+			"gym_post_thumbnail",
 			"H1",
 			"h1",
 			"enqueue",
@@ -705,24 +719,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "template-parts/content.php",
+					"file": "single-entrenador.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1444,
+						"buffer_size": 4395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								801,
-								801
+								3368,
+								3368
 							]
 						],
 						"settings":
@@ -731,117 +745,107 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 414.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "custom/myFunctions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								702,
-								702
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/tema/_generales.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								458,
-								458
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 79,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2017.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/E/Documents/git.txt",
+					"buffer": 1,
+					"file": "scss/tema/variables_tema.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 81,
+						"buffer_size": 428,
 						"regions":
 						{
+							"col_232323FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										149,
+										156
+									]
+								],
+								"scope": "col_232323FF"
+							},
+							"col_232323FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_232323FF_fill.png",
+								"regions":
+								[
+									[
+										137,
+										137
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F2F2F2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										191,
+										198
+									]
+								],
+								"scope": "col_F2F2F2FF"
+							},
+							"col_F2F2F2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F2F2F2FF_fill.png",
+								"regions":
+								[
+									[
+										179,
+										179
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFD602FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										170,
+										177
+									]
+								],
+								"scope": "col_FFD602FF"
+							},
+							"col_FFD602FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFD602FF_fill.png",
+								"regions":
+								[
+									[
+										158,
+										158
+									]
+								],
+								"scope": "col_gutter"
+							}
 						},
 						"selection":
 						[
 							[
-								79,
-								50
+								200,
+								200
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -851,69 +855,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "scss/tema/variables_tema.scss",
+					"buffer": 2,
+					"file": "scss/tema/_single-trainer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "scss/custom.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								191,
-								191
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "single.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 768,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -926,6 +873,64 @@
 						],
 						"settings":
 						{
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "custom/myFunctions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								217
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -933,7 +938,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -990,6 +995,14 @@
 			[
 				"tem",
 				"inc\\template-tags.php"
+			],
+			[
+				"template",
+				"inc\\template-tags.php"
+			],
+			[
+				"functions",
+				"functions.php"
 			],
 			[
 				"funtions",

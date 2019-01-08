@@ -1,0 +1,20 @@
+#img_single
+{
+	position: relative;
+	
+	img {
+		&:hover .categoria_ribon {
+			color: #000;
+		}
+	}
+	.categoria_ribon {
+		position: absolute;
+		background-color: $principal;
+		padding: 2px 6px;
+		top: 10px;
+		left: 10px;
+		a {
+			color: $secundario!important;
+		}
+	}
+}

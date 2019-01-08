@@ -1,0 +1,23 @@
+.entry-header 
+{
+
+	.entry-title
+	{
+		font-family: $fuente!important;
+		font-size: $size_h1;
+		font-weight: bold;
+		a {
+			color: $secundario!important;
+		}
+	}
+}
+.entry-meta, .entry-footer
+{
+	span {
+		a {
+			color: $secundario!important;
+			font-weight: bold;
+		}
+	}
+}
+

@@ -102,15 +102,46 @@ add_action( 'after_setup_theme', 'gym_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function gym_widgets_init() {
-	register_sidebar( array(
+	register_sidebar( [
 		'name'          => esc_html__( 'Sidebar', 'gym' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'gym' ),
+		'description'   => esc_html__( 'Agrega aquí los widgets.', 'gym' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );
+	] );
+
+	register_sidebar( [
+		'name'          => esc_html__( 'Footer 1', 'gym' ),
+		'id'            => 'footer-1',
+		'description'   => esc_html__( 'Agrega aquí los widgets - Footer 1', 'gym' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	] );
+
+	register_sidebar( [
+		'name'          => esc_html__( 'Footer 2', 'gym' ),
+		'id'            => 'footer-2',
+		'description'   => esc_html__( 'Agrega aquí los widgets - Footer 2', 'gym' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	] );
+
+	register_sidebar( [
+		'name'          => esc_html__( 'Footer 3', 'gym' ),
+		'id'            => 'footer-3',
+		'description'   => esc_html__( 'Agrega aquí los widgets - Footer 3', 'gym' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	] );
+
 }
 add_action( 'widgets_init', 'gym_widgets_init' );
 
@@ -121,6 +152,7 @@ function gym_scripts() {
 	wp_enqueue_style( 'gym-style', get_stylesheet_uri() );
 	// MIS ESTILOS
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'fontawesome_css', get_template_directory_uri() . '/css/font-awesome.min.css' );
 	wp_enqueue_style( 'custom_css', get_template_directory_uri() . '/css/custom.css' );
 
 	wp_enqueue_script( 'gym-navigation', get_template_directory_uri() . '/js/navigation.js', [], '20151215', true );
@@ -168,3 +200,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * MIS FUNCIONES
  */
 require get_template_directory() . '/custom/myFunctions.php';
+/**
+ * CUSTOM POST TYPES 
+ */
+require get_template_directory()   . '/cpt/entrenadores_cpt.php';

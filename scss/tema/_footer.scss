@@ -1,0 +1,27 @@
+.site-footer 
+{
+	padding: 25px 0px;
+	color: $blanco;
+	background-color: $secundario;
+	h2 {
+		color: $blanco!important;
+	}
+	a{
+		color: $blanco;
+	}
+	.widget_tag_cloud {
+		.tagcloud {
+			a {
+				color: $blanco!important;
+				&:hover {
+					color: $principal!important;
+				}
+			}
+		}
+	}
+	.widget_nav_menu,.widget_archive,.widget_categories,.widget_pages,.widget_meta,.widget_recent_comments,.widget_recent_entries,.widget_rss {
+		a {
+			color: $blanco!important;
+		}
+	}
+}

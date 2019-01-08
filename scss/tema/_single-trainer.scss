@@ -1,0 +1,16 @@
+.galeria-trainer
+{
+	.col-gal{
+		img {
+			position: relative;
+		}
+		p {
+			position: absolute;
+			top: 83%;
+			left: 7%;
+			border-right: 3px;
+			background-color: $principal;
+			padding: 3px 7px;
+		}
+	}
+}

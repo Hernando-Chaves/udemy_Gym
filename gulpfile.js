@@ -65,7 +65,8 @@ gulp.task('browser-sync',function(){
     './template-parts/**/*.php',
     './custom/**/*.php',
     './inc/**/*.php',
-    './images/**/*.**'
+    './images/**/*.**',
+    './cpt/**/*.php'
 
   ];
   browserSync.init(archivos,{

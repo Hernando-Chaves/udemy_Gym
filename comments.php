@@ -1,4 +1,4 @@
-<?php
+  <?php
 /**
  * The template for displaying comments
  *
@@ -32,7 +32,7 @@ if ( post_password_required() ) {
 			if ( '1' === $gym_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'gym' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'gym_club' ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
@@ -63,7 +63,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'gym' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'gym_club' ); ?></p>
 			<?php
 		endif;
 

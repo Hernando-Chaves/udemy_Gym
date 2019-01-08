@@ -7,7 +7,7 @@ h6 {font-size: $size_h6;}
 a, a:hover {
 	text-decoration: none;
 }
-a:hover, li:hover > a, .ancestor-menu-item > a, a:visited, a:active
+a,a:hover, li:hover > a, .ancestor-menu-item > a, a:visited, a:active
 {
 	color: $principal!important;
 } 
@@ -17,9 +17,23 @@ a:hover, li:hover > a, .ancestor-menu-item > a, a:visited, a:active
 	background-color: $secundario;
 	color: $principal;
 	border: none;
+	transition: 0.4s all ease;
+	cursor: pointer;
 	&:hover {
 		background-color: $principal;
 		color: $secundario!important;
 	}
 
+}
+
+hr 
+{
+	background-color: $principal!important;
+	height: 2px;
+	display: block;
+}
+
+.progress-bar
+{
+	background-color: $principal!important;
 }
