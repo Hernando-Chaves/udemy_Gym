@@ -25,28 +25,38 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'gym_club' ); ?></a>
 
 	<header id="masthead" class="site-header container-fluid">
-		<div class="row d-flex justify-content-end align-items-center">
-			<div class="site-branding col-md-4 ">
-				<?php
-					if( has_custom_logo())
-					{
-						the_custom_logo();
-					} else { ?>					
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php } ?>
-			</div><!-- .site-branding -->
+		<nav class="navbar navbar-expand container flex-column flex-md-row">
+			<a href="<?php echo esc_attr(home_url('/')) ?>" class="navbar-brand ">
+				<div class="site-branding col-md-4 ">
+					<?php
+						if( has_custom_logo())
+						{
+							the_custom_logo();
+						} else { ?>					
+							<h1 class="site-title text-center"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<?php } ?>
+				</div><!-- .site-branding -->
+			</a>
+			<!-- <button class="navbar-toggler mx-auto" data-target="#site-navigation" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button> -->
 
-			<nav id="site-navigation" class="main-navigation col-md-8 ">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'gym_club' ); ?></button>
+			<div id="site-navigation" class="main-navigation  collapse navbar-collapse  justify-content-md-end ">
+				<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'gym_club' ); ?></button> -->
 				<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
+					wp_nav_menu( array(
+						'theme_location'  => 'menu-1',
+						'container'       => 'div',
+						'container_id'    => 'primary-menu',
+						'container_class' => 'menu-gymMain-container w-100',
+						'menu_class'      => 'd-flex flex-column flex-md-row',
+						'menu_id'         => 'menu-id',
+						'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
+					) );
 				?>
-			</nav><!-- #site-navigation -->
-		</div> <!-- FIN ROW -->
+			</div><!-- #site-navigation -->
+		</nav>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content container mt-5">
+	<div id="content" class="site-content container ">
 		<div class="row">

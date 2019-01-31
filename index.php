@@ -53,7 +53,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="col-md-4">
+	<div class="col-md-4 mt-5">
        <?php get_sidebar(); ?>
 	</div>
 

@@ -1,0 +1,41 @@
+
+#paginacion
+{
+	ul.page-numbers
+	{
+		list-style: none!important;
+		display: flex;
+		justify-content: space-around;
+		margin-left: 0;
+		padding: 0!important;
+		li
+		{
+			a.page-numbers
+			{
+				background-color: $secundario;
+			    padding: 4px 10px;
+			    border-radius: 4px;
+				color: $principal!important;
+				font-size: 12px;
+				&:hover
+				{
+					background-color: $principal;
+					color: $secundario!important;
+				}
+			}
+			span.current
+			{
+				background-color: $principal;
+			    padding: 4px 10px;
+			    border-radius: 4px;
+				color: $secundario!important;
+				font-size: 12px;
+				&:hover
+				{
+					background-color: $secundario;
+					color: $principal!important;
+				}
+			}
+		}
+	}
+}

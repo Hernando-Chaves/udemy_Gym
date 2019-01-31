@@ -160,6 +160,8 @@ function gym_scripts() {
 	wp_enqueue_script( 'gym-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', [], '20151215', true );
 	// MIS SCRIPTS
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', ['jquery'], '4.1.3', true );
+	wp_enqueue_script( 'custom_js', get_template_directory_uri() . '/js/custom.js', ['jquery'], '4.1.3', true );
+	wp_localize_script( 'custom_js', 'gym', ['url'=> admin_url('admin-ajax.php')]  );
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -204,3 +206,8 @@ require get_template_directory() . '/custom/myFunctions.php';
  * CUSTOM POST TYPES 
  */
 require get_template_directory()   . '/cpt/entrenadores_cpt.php';
+require get_template_directory()   . '/cpt/clases_cpt.php';
+/**
+ * CUSTOMIZER 
+ */
+require get_template_directory() . '/custom/myCustomizer.php';

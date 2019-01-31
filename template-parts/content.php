@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('mt-5'); ?>>
 	<header class="entry-header ">
 		<?php 
 			gym_post_thumbnail(); 
@@ -37,7 +37,7 @@
 
 		if(!is_singular())
 		{
-			echo gym_change_excerpt_size();
+			echo gym_change_excerpt_size(300,'right');
 		} else {
 			
 			the_content( sprintf(

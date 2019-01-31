@@ -62,17 +62,69 @@ get_header();
 						<!-- CON NUMERO -->
 						<span><b>Edad: </b></span> <?php echo the_field('edad') ?> años<br>
 						<span><b>Correo: </b></span><?php the_field('correo')  ?> <br>
-						<span><b>Especialidad: </b></span> Boxeo, Spinning, Pilates <br>
-						<ul class="nav mt-2 float-left m-0">
-							<li class="mr-2">
-								<a href="http://facebook.com"><i class="fa fa-facebook-square fa-2x" ></i></a>
-							</li>
-							<li class="mr-2">
-								<a href="http://twitter.com"><i class="fa fa-twitter-square fa-2x" ></i></a>
-							</li>
-							<li class="mr-2">
-								<a href="http://youtube.com"><i class="fa fa-youtube-square fa-2x" ></i></a>
-							</li>
+						<span><b>Especialidades: </b></span> 
+						<?php 
+							$terms = get_terms( 'especialidad');
+
+							if(!empty($terms) && !is_wp_error($terms))
+							{
+								foreach($terms as $term)
+								{
+									echo $term->name . ' / ';
+								}
+							}
+						?>
+						<br>
+						<ul class="nav mt-2 float-left m-0 redes-sociales">
+							<?php 
+								if(get_field('facebook'))
+								{ 
+									$redes = get_field('facebook'); ?>
+									<li class="mr-1">
+										<a href="<?php $redes  ?>"><i class="fa fa-facebook-square fa-2x" ></i></a>
+									</li>
+								<?php }
+							
+								if(get_field('twitter'))
+								{ 
+									$redes = get_field('twitter'); ?>
+									<li class="mr-1">
+										<a href="<?php $redes  ?>"><i class="fa fa-twitter-square fa-2x" ></i></a>
+									</li>
+								<?php }
+							
+								if(get_field('instagram'))
+								{ 
+									$redes = get_field('instagram'); ?>
+									<li class="mr-1">
+										<a href="<?php $redes  ?>"><i class="fa fa-instagram fa-2x" ></i></a>
+									</li>
+								<?php }
+							
+								if(get_field('google'))
+								{ 
+									$redes = get_field('google'); ?>
+									<li class="mr-1">
+										<a href="<?php echo $redes  ?>"><i class="fa fa-google-plus-square fa-2x" ></i></a>
+									</li>
+								<?php }
+							
+								if(get_field('youtube'))
+								{ 
+									$redes = get_field('youtube'); ?>
+									<li class="mr-1">
+										<a href="<?php $redes  ?>"><i class="fa fa-youtube-square fa-2x" ></i></a>
+									</li>
+								<?php }
+							
+								if(get_field('linkedin'))
+								{ 
+									$redes = get_field('linkedin'); ?>
+									<li class="mr-1">
+										<a href="<?php $redes  ?>"><i class="fa fa-linkedin-square fa-2x" ></i></a>
+									</li>
+								<?php }
+							?>
 						</ul>
 					</div>
 				</div> <!-- FIN INFO ENTRENADOR -->

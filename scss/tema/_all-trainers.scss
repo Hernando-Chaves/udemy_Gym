@@ -1,0 +1,34 @@
+#entrenadorOverlay
+{
+	position: relative;
+	width: 100%;
+	&:hover #overlay
+	{
+		height: 100%!important;
+	}
+	.imgTrainer
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	#overlay
+	{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: $principal;
+		overflow: hidden;
+		width: 100%!important;
+		height: 0!important;
+		transition: all .5 ease!important;
+		opacity: .7;
+	}
+	i
+	{
+		color: $secundario;
+		z-index: 99;
+		opacity: 1;
+	}
+}

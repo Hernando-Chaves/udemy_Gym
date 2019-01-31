@@ -11,17 +11,55 @@ a,a:hover, li:hover > a, .ancestor-menu-item > a, a:visited, a:active
 {
 	color: $principal!important;
 } 
+a {
+	i {
+		margin-left: 5px!important;
+		&:hover{
+			color: $secundario!important;
+		}
+	}
+}
+.badge-warning
+{
+	background-color: $principal!important;
+}
 
 .btn-primary
 {
 	background-color: $secundario;
 	color: $principal;
 	border: none;
-	transition: 0.4s all ease;
+	transition: 0.1s all ease;
 	cursor: pointer;
 	&:hover {
 		background-color: $principal;
 		color: $secundario!important;
+	}
+}
+.btn.btn-inverso
+{
+	background-color: $secundario;
+	color: $principal!important;
+	border: none;
+	transition: 0.1s all ease;
+	cursor: pointer;
+	border: 1px solid $principal!important;
+	&:hover {
+		background-color: $principal;
+		color: $secundario!important;
+ }
+}
+
+a.btn-warning
+{
+	background-color: $principal;
+	color: $secundario!important;
+	border: none;
+	transition: 0.4s all ease;
+	cursor: pointer;
+	&:hover {
+		background-color: $secundario;
+		color: $principal!important;
 	}
 
 }
@@ -36,4 +74,14 @@ hr
 .progress-bar
 {
 	background-color: $principal!important;
+}
+.bg-secundario
+{
+	background-color: $secundario;
+}
+
+.home img.wp-post-image
+{
+	max-height: 263px;
+	overflow: hidden;
 }

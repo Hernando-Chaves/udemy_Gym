@@ -1,0 +1,29 @@
+.hora-clases
+{
+	.caja-clases 
+	{
+		padding: 7px 8px;
+		margin-right: 4px;	
+		text-align: center;
+		&:nth-child(odd)
+		{
+			background-color: $principal;
+		}
+		&:nth-child(even)
+		{
+			background-color: $secundario;
+			color: $blanco;
+		}
+	}
+}
+.a_clase-entrenador
+{
+	a {
+		h2 {
+			color: $secundario!important;
+			&:hover {
+				color: $principal!important;
+			}
+		}
+	}
+}

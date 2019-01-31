@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"im",
+				"img_promo"
+			],
+			[
+				"co",
+				"Contenido"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"get_theme_m",
+				"get_theme_mod"
+			],
+			[
+				"id",
+				"id_img"
+			],
+			[
+				"fun",
+				"function_No\tfuncion_no_existe"
+			],
+			[
+				"r",
+				"relative\tposition"
+			],
+			[
+				"curr",
+				"current_page"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"ter",
+				"terms"
+			],
+			[
+				"WP_Quer",
+				"WP_Query"
+			],
+			[
+				"post",
+				"post_object"
+			],
+			[
+				"pos",
+				"post_object"
+			],
+			[
+				"get_ter",
+				"get_terms"
+			],
+			[
+				"has_pos",
+				"has_post_thumbnail"
+			],
+			[
 				"trans",
 				"transition\tproperty"
 			],
@@ -16,28 +80,12 @@
 				"register_sidebar"
 			],
 			[
-				"re",
-				"relative\tposition"
-			],
-			[
-				"fun",
-				"function_No\tfuncion_no_existe"
-			],
-			[
 				"function",
 				"function_exists"
 			],
 			[
-				"r",
-				"respuesta_2"
-			],
-			[
 				"res",
 				"respuesta_2"
-			],
-			[
-				"id",
-				"id_item"
 			],
 			[
 				"i",
@@ -112,16 +160,8 @@
 				"json_last_error"
 			],
 			[
-				"co",
-				"columns"
-			],
-			[
 				"wp_cr",
 				"wp_create_nonce"
-			],
-			[
-				"c",
-				"class\tAttr"
 			],
 			[
 				"t",
@@ -408,36 +448,19 @@
 	"buffers":
 	[
 		{
-			"file": "single-entrenador.php",
+			"file": "custom/myCustomizer.php",
 			"settings":
 			{
-				"buffer_size": 4395,
+				"buffer_size": 23746,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scss/tema/variables_tema.scss",
+			"file": "front-page.php",
 			"settings":
 			{
-				"buffer_size": 428,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/tema/_single-trainer.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/custom.scss",
-			"settings":
-			{
-				"buffer_size": 441,
+				"buffer_size": 3257,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -446,7 +469,7 @@
 			"file": "custom/myFunctions.php",
 			"settings":
 			{
-				"buffer_size": 2853,
+				"buffer_size": 4163,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -468,12 +491,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"i",
-				"Package Control: Install Package"
-			],
-			[
 				"rem",
 				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
 			],
 			[
 				"dis",
@@ -522,50 +545,72 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema"
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_generales.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-config.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt/entrenadores_cpt.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_comentarios.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single-entrenador.php",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/languages/gym_club.pot",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/variables_tema.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/custom.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-noticias.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_generales.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_servicios.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-servicios.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/comments.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content/servicios",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/header.php",
+		"/E/Documents/datos behance.txt",
+		"/E/Documents/datos workana.txt",
+		"/F/BOGOTA_WEB_COMPANY/datos_bwc.txt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/node_modules/font-awesome/scss/_variables.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-slider.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_header.scss",
+		"/E/Documents/datos movistar.txt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_slider.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/inc/customizer.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/functions.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt/entrenadores_cpt.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/front-page.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/all-trainers.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_all-trainers.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single-entrenador.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_paginacion.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_all-clases.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/js/custom.js",
+		"/C/Users/acer/Downloads/Contraseña.txt",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/cpt/clases_cpt.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single-clase.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/js/plugins/isotope/isotope.js",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_single-clases.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_single-trainer.scss",
+		"/C/xampp/htdocs/chuletas/chuletas/post_types_taxonomias.php",
+		"/C/xampp/htdocs/udemy_gym/wp-config.php",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/gulpfile.js",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_comentarios.scss",
+		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/languages/gym_club.pot",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-none.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/template-parts/content-page.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/style.css",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/custom/myFunctions.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/footer.php",
 		"/E/Documents/datos mega descarcgas.txt",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/custom.css",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_sidebar.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/inc/template-tags.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_footer.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_blog.scss",
 		"/E/Documents/datos udemy.txt",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/variables_tema.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/variables-site/_colors.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/css/bootstrap.min.css",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/index.php",
-		"/C/Users/acer/Downloads/Contraseña.txt",
 		"/C/Users/acer/Downloads/check-solid.svg",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_single_blog.scss",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/single.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/.gitignore",
 		"/E/Documents/git.txt",
 		"/C/xampp/htdocs/chuletas/chuletas/GIT/config.php",
 		"/C/xampp/htdocs/chuletas/test/.gitignore",
-		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/scss/tema/_header.scss",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/404.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/search.php",
 		"/C/xampp/htdocs/udemy_gym/wp-content/themes/gym/archive.php",
@@ -586,7 +631,6 @@
 		"/F/BACKUPS SITIOS 2018/ELEGANCIA/datos E 0Y A/datos_host_lipur2019.txt",
 		"/E/Documents/datos namecheap.txt",
 		"/C/xampp/htdocs/chuletas/chuletas/SERVIDOR/HTTPS/PASOS PARA INSTALAR HTTPS.txt",
-		"/F/BOGOTA_WEB_COMPANY/datos_bwc.txt",
 		"/C/Users/acer/Downloads/.htaccess",
 		"/C/Users/acer/AppData/Local/Temp/fz3temp-2/.htaccess",
 		"/F/BACKUPS SITIOS 2018/INSTRUMENTOS/NOVIEMBRE 16 2018/ARCHIVOS/webhch80_daddyGuitar.sql",
@@ -632,35 +676,11 @@
 		"/F/1A/2017/CARDOZO ABOGADOS/datos/datos/datos.txt",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre.php",
 		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/partials/boilerdelatorre-save_metaboxes.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/partials/boilerdelatorre-metaboxes.php",
-		"/E/Documents/datos hostgator 2019.txt",
-		"/E/Documents/datos tarjeta  credito.txt",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/class-boilerdelatorre-admin.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/boilerdelatorre.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/beziercode-blank/admin/class-bc-admin.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-customnPostType.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-loader.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/public/class-boilerdelatorre-public.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/materiales.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/opciones/opciones.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/includes/class-boilerdelatorre-custonPostType.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/class-materiales-admin.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/js/materiales-admin.js",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-category.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-dpto.php",
-		"/F/CURSOS HACIENDO/PLUGINS GILBERT/beziercode-blank/includes/class-bc-cpt.php",
-		"/F/BOGOTA_WEB_COMPANY/PROYECTOS/DULCINEA/datos.txt",
-		"/C/xampp/htdocs/chuletas/chuletas/SERVIDOR/htaccess_elegaqncia",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/includes/class-materiales-admin-crud-json.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/materiales-admin-display.php",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/css/materiales-admin.css",
-		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/materiales/admin/partials/cargador.php",
-		"/F/1A/2017/AUDIFONOS/datos.txt"
+		"/C/xampp/htdocs/pruebas_wp/wp-content/plugins/boilerdelatorre/admin/partials/boilerdelatorre-metaboxes.php"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -674,6 +694,92 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img2_slider_inicio",
+			"titulo_promo",
+			"titulo_noticias",
+			"show_hide_section_noticias",
+			" text-light",
+			"center",
+			"text-right",
+			"cantidad_noticias",
+			"show_hide_section_noticias",
+			"add_section",
+			"max",
+			"col-md-4 text-center text-light mt-5 mt-md-0",
+			"col-md-4 text-center text-light",
+			"fa fa-user",
+			"boton_col_3",
+			"1",
+			"boton_col_1",
+			"principal",
+			"btn-outline-light",
+			"icono_col_2",
+			"Contenido",
+			"contenido_col_1",
+			"btn btn-outline-light",
+			"$titulo",
+			"2",
+			"1",
+			"texto",
+			"2",
+			"1",
+			"),",
+			"icono_servcicio_1",
+			"medic",
+			"<h2>",
+			"3",
+			"2",
+			"1",
+			"3",
+			"2",
+			"img2_alider_inicio",
+			"img1_alider_inicio",
+			"opciones_gym",
+			"gym_customizer",
+			"'",
+			"tamaño",
+			"w-100",
+			"active",
+			"nav",
+			"principalimporta",
+			"arioxx",
+			"$secundario!",
+			"secundario",
+			"principal",
+			"md",
+			"small",
+			"ul",
+			"$redes",
+			"2",
+			"px-2",
+			"label",
+			"consoe",
+			"enque",
+			"justify",
+			"1",
+			"horario_1",
+			"-",
+			"1",
+			"ba",
+			"Nuevo",
+			"Especialidad",
+			"add_taxonomia_especialidad",
+			"?>\n\t\t\t\t\t<?php ",
+			"_1",
+			"add_taxonomia_horario",
+			"gym_cpt_entrenador",
+			"prev",
+			"src=\"",
+			"gym_cpt_entrenador",
+			"mr-2",
+			"?>\n\t\t\t\t\t\t\t<?php ",
+			"the_field",
+			"$redes = the_field",
+			"the_field",
+			"echo $redes",
+			"isset(",
+			"facebook",
+			"Horario",
 			"<?php echo $caption ?>",
 			"$per1",
 			"50",
@@ -724,19 +830,63 @@
 			[
 				{
 					"buffer": 0,
-					"file": "single-entrenador.php",
+					"file": "custom/myCustomizer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4395,
+						"buffer_size": 23746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3368,
-								3368
+								22140,
+								22140
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11292.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "front-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3257,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										1336,
+										1336
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								582,
+								582
 							]
 						],
 						"settings":
@@ -745,110 +895,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2017.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/tema/variables_tema.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 428,
-						"regions":
-						{
-							"col_232323FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										149,
-										156
-									]
-								],
-								"scope": "col_232323FF"
-							},
-							"col_232323FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_232323FF_fill.png",
-								"regions":
-								[
-									[
-										137,
-										137
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_F2F2F2FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										191,
-										198
-									]
-								],
-								"scope": "col_F2F2F2FF"
-							},
-							"col_F2F2F2FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_F2F2F2FF_fill.png",
-								"regions":
-								[
-									[
-										179,
-										179
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFD602FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										170,
-										177
-									]
-								],
-								"scope": "col_FFD602FF"
-							},
-							"col_FFD602FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFD602FF_fill.png",
-								"regions":
-								[
-									[
-										158,
-										158
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 431.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -856,77 +903,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "scss/tema/_single-trainer.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scss/custom.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								339,
-								339
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "custom/myFunctions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2853,
+						"buffer_size": 4163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								217
+								4163,
+								3917
 							]
 						],
 						"settings":
@@ -935,10 +924,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2372.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -946,7 +935,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -983,7 +972,7 @@
 	"project": "udemy_gym.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -992,6 +981,94 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"my",
+				"custom\\myFunctions.php"
+			],
+			[
+				"cus",
+				"scss\\custom.scss"
+			],
+			[
+				"cust",
+				"css\\custom.css"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"_ge",
+				"scss\\tema\\_generales.scss"
+			],
+			[
+				"_gee",
+				"scss\\tema\\_generales.scss"
+			],
+			[
+				"_va",
+				"node_modules\\font-awesome\\scss\\_variables.scss"
+			],
+			[
+				"cpt",
+				"cpt\\entrenadores_cpt.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
+			[
+				"_all",
+				"scss\\tema\\_all-trainers.scss"
+			],
+			[
+				"_gene",
+				"scss\\tema\\_generales.scss"
+			],
+			[
+				"m",
+				"custom\\myFunctions.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"clases",
+				"cpt\\clases_cpt.php"
+			],
+			[
+				"clas",
+				"cpt\\clases_cpt.php"
+			],
+			[
+				"_s",
+				"scss\\tema\\_single-clases.scss"
+			],
+			[
+				"sing",
+				"single-entrenador.php"
+			],
+			[
+				"_singl",
+				"scss\\tema\\_single-trainer.scss"
+			],
+			[
+				"singe",
+				"single-entrenador.php"
+			],
+			[
+				"single-",
+				"single-entrenador.php"
+			],
 			[
 				"tem",
 				"inc\\template-tags.php"
@@ -1040,7 +1117,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 309.0,
 	"status_bar_visible": true,
 	"template_settings":

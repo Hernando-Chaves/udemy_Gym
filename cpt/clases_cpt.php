@@ -2,12 +2,12 @@
 /**
  * CUSTOM POST TYPE ENTRENADORES 
  */
-if(!function_exists('gym_cpt_entrenador'))
+if(!function_exists('gym_cpt_clases'))
 {
-	function gym_cpt_entrenador()
+	function gym_cpt_clases()
 	{
-		$singular    = 'Entrenador';
-		$plural      = $singular.'es';
+		$singular    = 'Clase';
+		$plural      = $singular.'s';
 		$minuscula   = strtolower($singular);
 		$text_domain = 'gym_club';
 
@@ -19,9 +19,9 @@ if(!function_exists('gym_cpt_entrenador'))
 		    'name_admin_bar'        => __( $plural, $text_domain ),
 		    'parent_item_colon'     => __( $singular.' Padre:', $text_domain ),
 		    'all_items'             => __( 'Todas las '.$plural, $text_domain ),
-		    'add_new_item'          => __( 'Agregar Nuevo '.$singular, $text_domain ),
-		    'add_new'               => __( 'Agregar Nuevo '.$singular, $text_domain ),
-		    'new_item'              => __( 'Nuevo '.$singular, $text_domain ),
+		    'add_new_item'          => __( 'Agregar Nueva '.$singular, $text_domain ),
+		    'add_new'               => __( 'Agregar Nueva '.$singular, $text_domain ),
+		    'new_item'              => __( 'Nueva '.$singular, $text_domain ),
 		    'edit_item'             => __( 'Editar '.$singular, $text_domain ),
 		    'update_item'           => __( 'Actualizar '.$singular, $text_domain ),
 		    'view_item'             => __( 'Ver '.$singular, $text_domain ),
@@ -45,14 +45,14 @@ if(!function_exists('gym_cpt_entrenador'))
 		    'label'                 => __( $minuscula, $text_domain ),
 		    'description'           => __( 'Entrenadores del gimnasio', $text_domain ),
 		    'labels'                => $labels,
-		    'supports'              => ['title','editor','slug','thumbnail'],
+		    'supports'              => ['title','slug','thumbnail'],
 		    // 'taxonomies'            => [ 'category', 'post_tag' ],
 		    'hierarchical'          => false,
 		    'public'                => true,
 		    'show_ui'               => true,
 		    'show_in_menu'          => true,
-		    'menu_icon'             => 'dashicons-admin-users',
-		    'rewrite'               => ['slug'  =>  'entrenador'],
+		    'menu_icon'             => 'dashicons-welcome-learn-more',
+		    'rewrite'               => ['slug'  =>  'clase'],
 		    'menu_position'         => 5,
 		    'show_in_admin_bar'     => true,
 		    'show_in_nav_menus'     => true,
@@ -66,21 +66,21 @@ if(!function_exists('gym_cpt_entrenador'))
           ];
           register_post_type($minuscula, $args);
 	}
-	add_action('init','gym_cpt_entrenador' );
+	add_action('init','gym_cpt_clases' );
 }
 /*
 **************************************************************************
    REGISTRAR TAXONOMIA ESPECIALIDADES
 **************************************************************************
 */
-   if(! function_exists('add_taxonomia_especialidades'))
+   if(! function_exists('add_taxonomia_categoria'))
    {
    
-   	function add_taxonomia_especialidades()
+   	function add_taxonomia_categoria()
    	{
-   		$singular    = 'Especialidad';
-   		$plural      = 'Especialidades';
-   		$post_type   = 'entrenador';
+   		$singular    = 'Tipo de Clase';
+   		$plural      = 'Tipos de Clases';
+   		$post_type   = 'clase';
    		$minuscula   = strtolower($singular);
    		$text_domain = 'gym_club';
    
@@ -108,7 +108,7 @@ if(!function_exists('gym_cpt_entrenador'))
    		];
    		$args = [
    			'labels'                     => $labels,
-   			'rewrite'                    => ['slug'  => 'entrenador'],
+   			'rewrite'                    => ['slug'  => 'tipo-clase'],
    			'hierarchical'               => true,
    			'public'                     => true,
    			'show_ui'                    => true,
@@ -117,9 +117,9 @@ if(!function_exists('gym_cpt_entrenador'))
    			'show_in_nav_menus'          => true,
    			'show_tagcloud'              => true,
    		];
-   		register_taxonomy( $minuscula, array( $post_type ), $args );
+   		register_taxonomy( 'tipo_clase', array( $post_type ), $args );
    		
    	}
    
    }
-   add_action('init','add_taxonomia_especialidades' );
+   add_action('init','add_taxonomia_categoria' );

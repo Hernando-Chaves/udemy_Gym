@@ -5,27 +5,74 @@
 // add_filter('show_admin_bar','__return_false');
 
 /**
+ * filtra las taxonomias de las clases de acuerdo al tipo de clase 
+ */
+if(!function_exists('filtrar_clases'))
+{
+	function filtrar_clases($clase)
+	{
+		$args = [
+			'post_type'      => 'clase',
+			'post_status'    => 'publish',
+			'posts_per_page' => 4,
+			'orderby'        => 'rand',
+			'tax_query'=> [
+				[
+                    'taxonomy'   => 'tipo_clase',
+                    'field'      => 'slug',
+                    'terms'      => $clase
+				]
+			],
+		];
+
+		$clases = new WP_Query( $args );
+
+		if($clases->have_posts()):
+	?>
+			<div id="<?php echo $clase ?>" class="col-md-12 mt-3 row mx-auto">
+				<?php while($clases->have_posts()) : $clases->the_post() ?>
+						<div class="col-md-6 col-lg-3 mt-2 w-100 mx-auto">
+							<?php 
+								$image = get_field('slide_1');
+								$size  = $image['sizes']['entrenador_gallery']
+							?>
+							<a href="<?php the_permalink() ?>">
+								<img src="<?php echo $size ?>" class="img-fluid  w-100" alt="">
+							</a>
+							<a href="<?php the_permalink() ?>" class="btn btn-block btn-sm btn-warning"><?php the_title() ?></a>
+						</div>
+				<?php endwhile ?>
+			</div>
+
+		<?php endif;wp_reset_postdata();
+		
+	}
+}
+  
+
+/**
  * Agrega tamaños de imagen 
  */
 add_image_size( 'img_post', 750, 310, ['left','top'] );
 add_image_size( 'entrenador_gallery', 400, 300,['left','top']);
 add_image_size( 'foto-entrenador',350,525,['top','left']);
+add_image_size( 'slide-clases',1300,550,['top','left']);
 
 /**
  * Cambia el tamaño del excerpt 
  */
 if(!function_exists('gym_change_excerpt_size'))
 {
-	function gym_change_excerpt_size()
+	function gym_change_excerpt_size($size,$align)
 	{
 		$excerpt = get_the_content();
 		$excerpt = preg_replace("([.*?])",'',$excerpt);
 		$excerpt = strip_shortcodes($excerpt);
 		$excerpt = strip_tags($excerpt);
-		$excerpt = substr($excerpt, 0, 380);
+		$excerpt = substr($excerpt, 0, $size);
 		$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
 		$excerpt = trim(preg_replace( '/s+/', ' ', $excerpt));
-		$excerpt = $excerpt.'...<br> <a class="btn btn-sm btn-primary float-right" href="'.get_permalink().'">'.__("Ver Más","gym_club").'</a>';
+		$excerpt = $excerpt.'...<br> <a class="btn btn-sm btn-primary float-"'.$align.'" href="'.get_permalink().'">'.__("Ver Más","gym_club").'</a>';
 		return $excerpt;
 	}
 }

@@ -1,0 +1,22 @@
+.menu-tipo-clase
+{
+	a.btn
+	{
+		border-radius: 0px!important;
+	}
+	a.active {
+		background-color: $principal!important;
+		color: $secundario!important;
+		border-color: transparent!important;
+		&:hover {
+			background-color: $secundario!important;
+			color:$principal !important;
+		}
+	}
+	a:focus {
+		box-shadow:none!important;
+	}
+	a:active {
+		background-color: $principal!important;
+	}
+}

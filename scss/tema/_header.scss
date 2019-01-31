@@ -1,65 +1,73 @@
-
-.site-header
+#masthead
 {
-	background-color: $secundario;
-}
-.main-navigation a {
-	color: #ffffff!important;
-	text-transform: uppercase;
-	padding:0px 0.3em;
-}
-.site-branding a
-{
-	color: $principal;
-	font-family: $fuente;
-	font-weight: bold;
-}
-/* MENU PRINCIPAL */
-.main-navigation
-{
-	li 
+	background-color: $secundario!important;
+	padding: 8px 0px;
+	#primary-menu
 	{
-		margin-left: 6px;
-	}
-	/* FLECHA */
-	.menu-item-has-children
-	{
-		> a {
-			margin-right: 9px;
-			&:before {
-				content:'';
-				position: absolute;
-				right: 0;
-				top: 50%;
-				transform: translateY(-10%);
-				border: 5px solid transparent;
-				border-top-color: $principal;
-			}
-		}
-	}
-	ul.sub-menu{
-		.menu-item-has-children {
-			> a {
-				&::before {
-					right: 5px;
-					border-top-color: transparent;
-					border-left-color: $principal;
+		ul#menu-id
+		{
+			& > li
+			{
+				margin-left: 9px;
+				transition:  all .3s ease; 
+				a
+				{
+					color: $blanco!important;
 				}
 			}
 		}
+		ul.sub-menu
+		{
+			background-color: $secundario;
+			li
+			{
+				padding: 7px 12px;
+				cursor: pointer;
+				margin-bottom: 5px;
+				&:hover
+				{
+					background-color: $principal;
+				}
+			}
+			
+			/* FLECHA */
+				.menu-item-has-children
+				{
+					> a 
+					    {
+							color: $principal!important;
+							&::before 
+							{
+								right: 5px;
+								border-top-color: transparent;
+								border-left-color: $blanco;
+							}
+						}
+				}
+		}
 	}
+	
 }
 
-.current_page_item > a
-{
-	background-color: $principal!important;
-	padding: 2px 8px;
-	border-radius: 5px;
-	color: $secundario!important;
-}
 
-/* SUBMENUS */
-ul .sub-menu
+.current_page_item, .current_page_ancestor
 {
-	background-color: $secundario;
+	border-bottom: 2px solid $principal;
+	width: 100%;
+}
+.menu-item-has-children
+{
+	> a {
+		margin-right: 13px;
+		&:before 
+		{
+			content:'';
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-10%);
+			border: 5px solid transparent;
+			border-top-color: $blanco;
+		}
+	}
 }
